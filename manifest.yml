@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: SecurityAnalyticsServer2
+  host: SecurityAnalyticsServer2
+  disk_quota: 1024M
+  services:
+  - Internet of Things-cu
+  - SecurityAnalyticsServer2-cloudantNoSQLDB
